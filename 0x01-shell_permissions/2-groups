@@ -1,7 +1,2 @@
 #!/bin/bash
-username=$(whoami)
-groups=$(groups)
-for group in $groups; do
-  echo "$group"
-done
-bash print_groups.sh
+id command
