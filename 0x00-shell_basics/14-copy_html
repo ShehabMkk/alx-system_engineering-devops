@@ -1,2 +1,2 @@
 #!/bin/bash
-for f in *.html; do if ! [ -f "../$f" ]; then cp -nv "$f" ../ fi done
+cp -u *.html ..
